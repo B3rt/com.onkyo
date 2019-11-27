@@ -1,5 +1,5 @@
 {
-  "id": "homey.onkyo",
+  "id": "com.onkyo",
   "name": {
     "en": "Onkyo receiver / Pioneer VSX receiver",
     "nl": "Onkyo receiver / Pioneer VSX receiver"
@@ -8,6 +8,7 @@
   "sdk": 2,
   "compatibility": ">=2.0.0",
   "brandColor": "#8142f5",
+  "source": "https://github.com/mickelluiten/com.onkyo",
   "author": {
     "name": "Mickel Luiten",
     "email": "mickelluiten@gmail.com"
