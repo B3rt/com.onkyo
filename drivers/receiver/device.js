@@ -793,6 +793,16 @@ class OnkyoDevice extends Homey.Device {
 		    //callback (err.message, false);
 		});
 		
+		cmdclient[settings.host].on('timeout', function(err){
+		    console.log("[socket] Timeout: " + JSON.stringify (err));
+		    //callback (err.message, false);
+		});
+		
+		cmdclient[settings.host].on('bufferSize', function(err){
+		    console.log("[socket] bufferSize: " + JSON.stringify (err));
+		    //callback (err.message, false);
+		});
+		
 		cmdclient[settings.host].on('data', function(data) {
 			
 			
